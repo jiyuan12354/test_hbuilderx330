@@ -1,0 +1,23 @@
+<template>
+	<view class="flex-col container">
+		<driver-list-item></driver-list-item>
+	</view>
+</template>
+<script>
+	
+	export default {
+		name: 'landing-page',
+		data() {
+			return {}
+		}
+	}
+</script>
+
+<style lang="scss">
+	.container {
+	  padding: 30rpx 0 24rpx;
+	  background-color: rgb(245, 246, 249);
+	  width: 100vw;
+	  height: 100vh;
+	  overflow-y: auto;}
+</style>
